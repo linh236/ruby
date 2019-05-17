@@ -1,0 +1,29 @@
+// Place all the styles related to the Microposts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+img {
+    width: 200px;
+    height: 200px;
+}
+
+table,
+tr,
+td {
+    border: 1px solid;
+    box-shadow: 2px 4px 5px 3px;
+    padding: 3px;
+    margin: 4px;
+    text-align: center;
+}
+
+a:hover {
+    color: red;
+}
+
+h2 {
+    color: red;
+}
+
+p {
+    font-size: 23px;
+}

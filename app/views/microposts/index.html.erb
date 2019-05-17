@@ -1,0 +1,17 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Tin Chính trong ngày</h1>
+
+<table>
+  <tbody>
+  <tr>
+    <% @microposts.each do |micropost| %>
+      <td>
+      <h2> <%= link_to micropost.title,micropost %></h2>
+       <br>
+         <%= link_to image_tag(micropost.image.url), micropost%>
+        </td>
+        <% end %>
+  </tr>
+  </tbody>
+</table>
